@@ -16,6 +16,9 @@
 		3C263D7413FC04A600040A09 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C263D7213FC04A600040A09 /* MainWindow.xib */; };
 		3C263D7713FC04A600040A09 /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C263D7613FC04A600040A09 /* CurrencyViewController.m */; };
 		3C263D7A13FC04A600040A09 /* CurrencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C263D7813FC04A600040A09 /* CurrencyViewController.xib */; };
+		3C263D8213FC04E900040A09 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C263D8113FC04E900040A09 /* XMLReader.m */; };
+		3C263D8613FC193500040A09 /* CurrencySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C263D8413FC193500040A09 /* CurrencySelectViewController.m */; };
+		3C263D8713FC193500040A09 /* CurrencySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C263D8513FC193500040A09 /* CurrencySelectViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,21 @@
 		3C263D6013FC04A500040A09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C263D6213FC04A500040A09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C263D6413FC04A500040A09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3C263D6813FC04A600040A09 /* Currency-Info.plist */ = {isa = PBXFileReference; path = "Currency-Info.plist"; sourceTree = "<group>"; };
+		3C263D6813FC04A600040A09 /* Currency-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Currency-Info.plist"; sourceTree = "<group>"; };
 		3C263D6A13FC04A600040A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3C263D6C13FC04A600040A09 /* Currency-Prefix.pch */ = {isa = PBXFileReference; path = "Currency-Prefix.pch"; sourceTree = "<group>"; };
+		3C263D6C13FC04A600040A09 /* Currency-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Currency-Prefix.pch"; sourceTree = "<group>"; };
 		3C263D6D13FC04A600040A09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C263D6F13FC04A600040A09 /* CurrencyAppDelegate.h */ = {isa = PBXFileReference; path = CurrencyAppDelegate.h; sourceTree = "<group>"; };
+		3C263D6F13FC04A600040A09 /* CurrencyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyAppDelegate.h; sourceTree = "<group>"; };
 		3C263D7013FC04A600040A09 /* CurrencyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyAppDelegate.m; sourceTree = "<group>"; };
 		3C263D7313FC04A600040A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		3C263D7513FC04A600040A09 /* CurrencyViewController.h */ = {isa = PBXFileReference; path = CurrencyViewController.h; sourceTree = "<group>"; };
+		3C263D7513FC04A600040A09 /* CurrencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
 		3C263D7613FC04A600040A09 /* CurrencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
 		3C263D7913FC04A600040A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CurrencyViewController.xib; sourceTree = "<group>"; };
+		3C263D8013FC04E900040A09 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		3C263D8113FC04E900040A09 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		3C263D8313FC193500040A09 /* CurrencySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencySelectViewController.h; sourceTree = "<group>"; };
+		3C263D8413FC193500040A09 /* CurrencySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencySelectViewController.m; sourceTree = "<group>"; };
+		3C263D8513FC193500040A09 /* CurrencySelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencySelectViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,11 @@
 				3C263D7613FC04A600040A09 /* CurrencyViewController.m */,
 				3C263D7813FC04A600040A09 /* CurrencyViewController.xib */,
 				3C263D6713FC04A600040A09 /* Supporting Files */,
+				3C263D8013FC04E900040A09 /* XMLReader.h */,
+				3C263D8113FC04E900040A09 /* XMLReader.m */,
+				3C263D8313FC193500040A09 /* CurrencySelectViewController.h */,
+				3C263D8413FC193500040A09 /* CurrencySelectViewController.m */,
+				3C263D8513FC193500040A09 /* CurrencySelectViewController.xib */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -151,6 +164,7 @@
 				3C263D6B13FC04A600040A09 /* InfoPlist.strings in Resources */,
 				3C263D7413FC04A600040A09 /* MainWindow.xib in Resources */,
 				3C263D7A13FC04A600040A09 /* CurrencyViewController.xib in Resources */,
+				3C263D8713FC193500040A09 /* CurrencySelectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +178,8 @@
 				3C263D6E13FC04A600040A09 /* main.m in Sources */,
 				3C263D7113FC04A600040A09 /* CurrencyAppDelegate.m in Sources */,
 				3C263D7713FC04A600040A09 /* CurrencyViewController.m in Sources */,
+				3C263D8213FC04E900040A09 /* XMLReader.m in Sources */,
+				3C263D8613FC193500040A09 /* CurrencySelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +254,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
 				INFOPLIST_FILE = "Currency/Currency-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Currency/Currency-Prefix.pch";
 				INFOPLIST_FILE = "Currency/Currency-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

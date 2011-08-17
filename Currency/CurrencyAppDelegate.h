@@ -18,4 +18,6 @@
 
 @property (nonatomic, retain) IBOutlet CurrencyViewController *viewController;
 
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+
 @end

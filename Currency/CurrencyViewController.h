@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CurrencyViewController : UIViewController {
+@interface CurrencyViewController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
+    
     
 }
+- (IBAction)calculateDanishCurrencyValue:(id)sender;
 
 @end
