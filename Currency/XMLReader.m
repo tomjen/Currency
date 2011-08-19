@@ -68,14 +68,14 @@ NSString *const kXMLReaderTextNodeKey = @"text";
     [dictionaryStack addObject:[NSMutableDictionary dictionary]];
     
     // Parse the XML
-    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
+    NSXMLParser *parser = [[[NSXMLParser alloc] initWithData:data] autorelease];
     parser.delegate = self;
     BOOL success = [parser parse];
     
     // Return the stack's root dictionary on success
     if (success)
     {
-        NSDictionary *resultDict = [dictionaryStack objectAtIndex:0];
+        NSDictionary *resultDict = [[dictionaryStack objectAtIndex:0] retain];
         return resultDict;
     }
     

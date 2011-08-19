@@ -73,7 +73,6 @@
 						<string key="NSFrame">{{20, 332}, {280, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
@@ -158,6 +157,14 @@
 						<reference key="destination" ref="322341047"/>
 					</object>
 					<int key="connectionID">11</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">picker</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="188699148"/>
+					</object>
+					<int key="connectionID">12</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -249,7 +256,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">11</int>
+			<int key="maxID">12</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -264,11 +271,13 @@
 							<string>active</string>
 							<string>activeLabel</string>
 							<string>currencyPicker</string>
+							<string>picker</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UIActivityIndicatorView</string>
 							<string>UILabel</string>
+							<string>UIPickerView</string>
 							<string>UIPickerView</string>
 						</object>
 					</object>
@@ -279,6 +288,7 @@
 							<string>active</string>
 							<string>activeLabel</string>
 							<string>currencyPicker</string>
+							<string>picker</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -292,6 +302,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">currencyPicker</string>
+								<string key="candidateClassName">UIPickerView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">picker</string>
 								<string key="candidateClassName">UIPickerView</string>
 							</object>
 						</object>

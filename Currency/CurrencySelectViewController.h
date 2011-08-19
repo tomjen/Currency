@@ -9,13 +9,18 @@
 #import <UIKit/UIKit.h>
 
 
-@interface CurrencySelectViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate> {
+@interface CurrencySelectViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate, NSXMLParserDelegate> {
     
-    NSArray * currencies;
+    NSMutableArray * currencies;
     IBOutlet UIPickerView *currencyPicker;
     IBOutlet UIActivityIndicatorView *active;
     IBOutlet UILabel *activeLabel;
+    NSMutableData *data;
+    IBOutlet UIPickerView *picker;
 }
 
 @property NSString * selected;
+
+//private
+-(void) parseXML;
 @end
